@@ -1,0 +1,6 @@
+.local
+.local/
+build/
+deploy/
+compile/
+run/
