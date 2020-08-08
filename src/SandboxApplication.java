@@ -29,7 +29,7 @@ public class SandboxApplication {
     ht.put("STURM1", "Thomas Müller");
     ht.put("STURM2", "Robert Lewandowski");
     
-    Enumeration names = ht.keys();
+    Enumeration<String> names = ht.keys();
     while (names.hasMoreElements()) {
       String key = (String) names.nextElement();
       System.out.println(key + ": " + ht.get(key));
